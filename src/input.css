@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  scroll-behavior: smooth;
+}
+.bg-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/IMG_1451.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.bg-work {
+  background-image: url(../img/services.png);
+}
+
+.bg-testimonial {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/testimonials+bg.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.assit-1 {
+  background-image: url(../img/image-asset.jpeg);
+
+  background-size: cover;
+  background-position: center;
+}
+.assit-2 {
+  background-image: url(../img/image-asset1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.assit-3 {
+  background-image: url(../img/image-asset2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.assit-4 {
+  background-image: url(../img/image-asset3.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.assit-5 {
+  background-image: url(../img/image-asset4.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.assit-6 {
+  background-image: url(../img/image-asset5.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.assit-7 {
+  background-image: url(../img/image-asset6.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.assit-8 {
+  background-image: url(../img/image-asset7.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.assit-9 {
+  background-image: url(../img/image-asset8.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.assit-10 {
+  background-image: url(../img/image-asset9.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.contact-sh:hover {
+  box-shadow: 0 2px 0 0 #fff;
+}
+
+.open .bar1 {
+  transform: rotate(-45deg) translate(-29%, 0);
+  transition: all 0.5s 0.4s;
+}
+.open .bar3 {
+  transform: rotate(45deg) translate(-19%, 0);
+  transition: all 0.5s 0.2s;
+}
+.open .bar2 {
+  animation: bar2anout 0.7s ease-in-out forwards;
+}
+.bar1 {
+  transform: rotate(0) translate(0, 0);
+
+  transition: all 0.5s 0.1s;
+}
+.bar3 {
+  transform: rotate(0) translate(0, 0);
+
+  transition: all 0.5s;
+}
+.bar2 {
+  animation: bar2anin 0.8s ease-in-out forwards;
+}
+
+@keyframes bar2anout {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-250%, 0);
+    opacity: 0;
+  }
+}
+@keyframes bar2anin {
+  0% {
+    transform: translate(250%, 0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
