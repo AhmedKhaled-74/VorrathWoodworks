@@ -21,115 +21,48 @@
     />
     <title>Vorrath Woodworks</title>
   </head>
-  <body class="overflow-x-hidden">
-    <header>
-      <nav
-        class="overflow-x-hidden bg-[#f2f2f2] fixed md:static top-0 left-0 w-full z-[999]"
-      >
-        <div
-          class="nav-container flex max-w-[1460px] h-28 mx-auto px-8 items-center justify-center md:justify-between"
+  <body>
+    <div class="wrapper overflow-x-hidden">
+      <header>
+        <nav
+          class="overflow-x-hidden bg-[#f2f2f2] fixed md:static top-0 left-0 w-full z-[999]"
         >
-          <div>
-            <a href="#">
-              <img src="./img/header-logo-dark.png" class="w-20" alt="logo" />
-            </a>
-          </div>
-          <ul
-            class="text-xs md:flex hidden gap-8 md:tracking-widest lg:tracking-[.15rem] items-center font-light"
-          >
-            <li>
-              <a
-                href="#about"
-                class="uppercase hover:text-mainColor transition-all duration-300"
-                >about</a
-              >
-            </li>
-            <li>
-              <a
-                href="#work"
-                class="uppercase hover:text-mainColor transition-all duration-300"
-                >work</a
-              >
-            </li>
-            <li>
-              <a
-                href="#testimonials"
-                class="uppercase hover:text-mainColor transition-all duration-300"
-                >press + testimonials</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="uppercase px-5 py-3 text-white border-mainColor bg-mainColor transition-all duration-300 hover:bg-white border-2 hover:text-mainColor"
-                >contact</a
-              >
-            </li>
-            <li
-              class="text-xl flex gap-1 text-gray-600 [&:has(a:hover)]:text-gray-400"
-            >
-              <a
-                href="#"
-                class="hover:text-gray-600 p-2 transition-all duration-300"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-              <a
-                href="#"
-                class="hover:text-gray-600 p-2 transition-all duration-300"
-                ><i class="fa-brands fa-facebook-f"></i
-              ></a>
-              <a
-                href="#"
-                class="hover:text-gray-600 p-2 transition-all duration-300"
-                ><i class="fa-brands fa-yelp"></i
-              ></a>
-            </li>
-          </ul>
-
           <div
-            id="menu"
-            class="fixed md:hidden translate-x-[85%] transition-all duration-1000 delay-1000 w-full h-screen z-50 left-0 top-0"
+            class="nav-container flex max-w-[1460px] h-28 mx-auto px-8 items-center justify-center md:justify-between"
           >
+            <div>
+              <a href="#">
+                <img src="./img/header-logo-dark.png" class="w-20" alt="logo" />
+              </a>
+            </div>
             <ul
-              class="mob-nav text-lg transition-all duration-700 font-semibold ml-auto w-[85%] flex flex-col left-16 bg-work py-32 gap-5 md:tracking-widest lg:tracking-[.15rem] items-center text-center"
+              class="text-xs md:flex hidden gap-8 md:tracking-widest lg:tracking-[.15rem] items-center font-light"
             >
-              <li
-                id="btn-menu"
-                class="flex py-4 justify-center cursor-pointer w-[15%] z-[999] absolute top-8 transition-all ease-in-out duration-1000 delay-700 left-0"
-              >
-                <div
-                  class="flex bars flex-col transition-all duration-500 -translate-x-4 gap-1.5"
-                >
-                  <div class="h-0.5 w-12 bg-black bar1"></div>
-                  <div class="h-0.5 w-12 bg-black bar2"></div>
-                  <div class="h-0.5 w-12 bg-black bar3"></div>
-                </div>
-              </li>
-              <li class="w-full px-4">
+              <li>
                 <a
                   href="#about"
-                  class="mob-link uppercase w-full py-4 hover:shadow-lg inline-block hover:text-mainColor transition-all duration-300"
+                  class="uppercase hover:text-mainColor transition-all duration-300"
                   >about</a
                 >
               </li>
-              <li class="w-full px-4">
+              <li>
                 <a
                   href="#work"
-                  class="mob-link uppercase w-full py-4 hover:shadow-lg inline-block hover:text-mainColor transition-all duration-300"
+                  class="uppercase hover:text-mainColor transition-all duration-300"
                   >work</a
                 >
               </li>
-              <li class="w-full px-4">
+              <li>
                 <a
                   href="#testimonials"
-                  class="mob-link uppercase w-full py-4 hover:shadow-lg inline-block hover:text-mainColor transition-all duration-300"
+                  class="uppercase hover:text-mainColor transition-all duration-300"
                   >press + testimonials</a
                 >
               </li>
-              <li class="w-full px-4">
+              <li>
                 <a
                   href="#"
-                  class="mob-link uppercase px-5 inline-block py-3 w-full text-white border-mainColor bg-mainColor transition-all duration-300 hover:bg-white border-2 hover:text-mainColor"
+                  class="uppercase px-5 py-3 text-white border-mainColor bg-mainColor transition-all duration-300 hover:bg-white border-2 hover:text-mainColor"
                   >contact</a
                 >
               </li>
@@ -152,383 +85,454 @@
                   ><i class="fa-brands fa-yelp"></i
                 ></a>
               </li>
-              <li>
-                <div>
-                  <a href="#">
-                    <img
-                      src="./img/header-logo-dark.png"
-                      class="w-32"
-                      alt="logo"
-                    />
-                  </a>
-                </div>
-              </li>
             </ul>
+
+            <div
+              id="menu"
+              class="fixed md:hidden translate-x-[85%] transition-all duration-1000 delay-1000 w-full h-screen z-50 left-0 top-0"
+            >
+              <ul
+                class="mob-nav text-lg transition-all duration-700 font-semibold ml-auto w-[85%] flex flex-col left-16 bg-work py-32 gap-5 md:tracking-widest lg:tracking-[.15rem] items-center text-center"
+              >
+                <li
+                  id="btn-menu"
+                  class="flex py-4 justify-center cursor-pointer w-[15%] z-[999] absolute top-8 transition-all ease-in-out duration-1000 delay-700 left-0"
+                >
+                  <div
+                    class="flex bars flex-col transition-all duration-500 -translate-x-4 gap-1.5"
+                  >
+                    <div class="h-0.5 w-12 bg-black bar1"></div>
+                    <div class="h-0.5 w-12 bg-black bar2"></div>
+                    <div class="h-0.5 w-12 bg-black bar3"></div>
+                  </div>
+                </li>
+                <li class="w-full px-4">
+                  <a
+                    href="#about"
+                    class="mob-link uppercase w-full py-4 hover:shadow-lg inline-block hover:text-mainColor transition-all duration-300"
+                    >about</a
+                  >
+                </li>
+                <li class="w-full px-4">
+                  <a
+                    href="#work"
+                    class="mob-link uppercase w-full py-4 hover:shadow-lg inline-block hover:text-mainColor transition-all duration-300"
+                    >work</a
+                  >
+                </li>
+                <li class="w-full px-4">
+                  <a
+                    href="#testimonials"
+                    class="mob-link uppercase w-full py-4 hover:shadow-lg inline-block hover:text-mainColor transition-all duration-300"
+                    >press + testimonials</a
+                  >
+                </li>
+                <li class="w-full px-4">
+                  <a
+                    href="#"
+                    class="mob-link uppercase px-5 inline-block py-3 w-full text-white border-mainColor bg-mainColor transition-all duration-300 hover:bg-white border-2 hover:text-mainColor"
+                    >contact</a
+                  >
+                </li>
+                <li
+                  class="text-xl flex gap-1 text-gray-600 [&:has(a:hover)]:text-gray-400"
+                >
+                  <a
+                    href="#"
+                    class="hover:text-gray-600 p-2 transition-all duration-300"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a
+                    href="#"
+                    class="hover:text-gray-600 p-2 transition-all duration-300"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                  <a
+                    href="#"
+                    class="hover:text-gray-600 p-2 transition-all duration-300"
+                    ><i class="fa-brands fa-yelp"></i
+                  ></a>
+                </li>
+                <li>
+                  <div>
+                    <a href="#">
+                      <img
+                        src="./img/header-logo-dark.png"
+                        class="w-32"
+                        alt="logo"
+                      />
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
-      <section
-        id="hero"
-        class="bg-hero mt-28 md:mt-0 relative overflow-hidden pt-64 pb-36"
-      >
-        <div class="max-w-[1460px] px-8 h-full text-white container mx-auto">
-          <p class="md:text-lg tracking-widest mb-4">WELCOME TO</p>
-          <h1
-            class="font-serif mb-12 text-4xl sm:text-5xl md:text-7xl max-w-lg leading-snug"
+        </nav>
+        <section
+          id="hero"
+          class="bg-hero mt-28 md:mt-0 relative overflow-hidden pt-64 pb-36"
+        >
+          <div class="max-w-[1460px] px-8 h-full text-white container mx-auto">
+            <p class="md:text-lg tracking-widest mb-4">WELCOME TO</p>
+            <h1
+              class="font-serif mb-12 text-4xl sm:text-5xl md:text-7xl max-w-lg leading-snug"
+            >
+              VORRATH WOODWORKS
+            </h1>
+            <a
+              href="#"
+              class="uppercase px-6 py-4 text-white border-white hover:border-mainColor tracking-widest bg-transparent transition-all duration-300 hover:bg-mainColor border-2"
+              >contact</a
+            >
+          </div>
+          <div
+            class="arrow-box text-center absolute bottom-0 left-1/2 -translate-x-1/2"
           >
-            VORRATH WOODWORKS
-          </h1>
-          <a
-            href="#"
-            class="uppercase px-6 py-4 text-white border-white hover:border-mainColor tracking-widest bg-transparent transition-all duration-300 hover:bg-mainColor border-2"
-            >contact</a
-          >
+            <i
+              id="arrow-down"
+              class="fa-solid fa-chevron-down transition-all duration-300 text-4xl opacity-100 text-gray-300"
+            ></i>
+          </div>
+        </section>
+      </header>
+      <section id="work" class="bg-work py-40">
+        <div class="container mx-auto mb-6 text-center">
+          <h2 class="text-4xl font-bold">OUR WORK</h2>
         </div>
         <div
-          class="arrow-box text-center absolute bottom-0 left-1/2 -translate-x-1/2"
+          class="max-w-[1460px] font-semibold px-8 mx-auto tracking-widest flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap gap-8 md:justify-between"
         >
-          <i
-            id="arrow-down"
-            class="fa-solid fa-chevron-down transition-all duration-300 text-4xl opacity-100 text-gray-300"
-          ></i>
+          <div
+            class="item-work flex flex-col md:w-[47%] items-start gap-8 lg:w-full"
+          >
+            <img
+              src="./img/fine-furniture.png"
+              class="w-full"
+              alt="FURNITURE "
+              loading="lazy"
+            />
+            <h3 class="text-lg">FINE FURNITURE</h3>
+            <a
+              href="#"
+              class="uppercase text-xs px-6 py-3 text-mainColor border-mainColor tracking-widest bg-transparent transition-all hover:text-white duration-300 hover:bg-mainColor border-2"
+              >view work</a
+            >
+          </div>
+          <div
+            class="item-work flex flex-col md:w-[47%] items-start gap-8 lg:w-full"
+          >
+            <img
+              src="./img/cabinetry+01.png"
+              class="w-full"
+              alt="CABINETRY "
+              loading="lazy"
+            />
+            <h3 class="text-lg">CABINETRY</h3>
+            <a
+              href="#"
+              class="uppercase text-xs px-6 py-3 text-mainColor border-mainColor tracking-widest bg-transparent transition-all hover:text-white duration-300 hover:bg-mainColor border-2"
+              >view work</a
+            >
+          </div>
+          <div
+            class="item-work flex flex-col items-start md:w-[47%] gap-8 lg:w-full"
+          >
+            <img
+              src="./img/collaborative+work.png"
+              alt="COLLABORATIVE WORKS"
+              class="w-full"
+              loading="lazy"
+            />
+            <h3 class="text-lg">COLLABORATIVE WORKS</h3>
+            <a
+              href="#"
+              class="uppercase text-xs px-6 py-3 text-mainColor border-mainColor tracking-widest bg-transparent transition-all hover:text-white duration-300 hover:bg-mainColor border-2"
+              >view work</a
+            >
+          </div>
         </div>
       </section>
-    </header>
-    <section id="work" class="bg-work py-40">
-      <div class="container mx-auto mb-6 text-center">
-        <h2 class="text-4xl font-bold">OUR WORK</h2>
-      </div>
-      <div
-        class="max-w-[1460px] font-semibold px-8 mx-auto tracking-widest flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap gap-8 md:justify-between"
-      >
+      <section id="about" class="about py-36 px-8">
         <div
-          class="item-work flex flex-col md:w-[47%] items-start gap-8 lg:w-full"
+          class="container mx-auto flex md:items-center flex-col lg:flex-row lg:gap-14 gap-20"
         >
-          <img
-            src="./img/fine-furniture.png"
-            class="w-full"
-            alt="FURNITURE "
-            loading="lazy"
-          />
-          <h3 class="text-lg">FINE FURNITURE</h3>
-          <a
-            href="#"
-            class="uppercase text-xs px-6 py-3 text-mainColor border-mainColor tracking-widest bg-transparent transition-all hover:text-white duration-300 hover:bg-mainColor border-2"
-            >view work</a
-          >
-        </div>
-        <div
-          class="item-work flex flex-col md:w-[47%] items-start gap-8 lg:w-full"
-        >
-          <img
-            src="./img/cabinetry+01.png"
-            class="w-full"
-            alt="CABINETRY "
-            loading="lazy"
-          />
-          <h3 class="text-lg">CABINETRY</h3>
-          <a
-            href="#"
-            class="uppercase text-xs px-6 py-3 text-mainColor border-mainColor tracking-widest bg-transparent transition-all hover:text-white duration-300 hover:bg-mainColor border-2"
-            >view work</a
-          >
-        </div>
-        <div
-          class="item-work flex flex-col items-start md:w-[47%] gap-8 lg:w-full"
-        >
-          <img
-            src="./img/collaborative+work.png"
-            alt="COLLABORATIVE WORKS"
-            class="w-full"
-            loading="lazy"
-          />
-          <h3 class="text-lg">COLLABORATIVE WORKS</h3>
-          <a
-            href="#"
-            class="uppercase text-xs px-6 py-3 text-mainColor border-mainColor tracking-widest bg-transparent transition-all hover:text-white duration-300 hover:bg-mainColor border-2"
-            >view work</a
-          >
-        </div>
-      </div>
-    </section>
-    <section id="about" class="about py-36 px-8">
-      <div
-        class="container mx-auto flex md:items-center flex-col lg:flex-row lg:gap-14 gap-20"
-      >
-        <div class="flex-1">
-          <img src="./img/about+02.png" alt="kitchen" />
-        </div>
-        <div class="flex flex-col items-start flex-1 gap-8">
-          <p class="uppercase text-xl">ABOUT</p>
-          <h2 class="text-3xl md:text-4xl tracking-widest font-semibold">
-            VORRATH WOODWORKS
-          </h2>
-          <div class="h-0.5 w-3/12 bg-mainColor"></div>
-          <p class="leading-loose">
-            Vorrath Woodworks is a team of formally trained fine woodworkers
-            from The Krenov School of Fine Furniture, in Fort Bragg California.
-            Our training and experience gives us a leg up in the intricacies of
-            fine woodworking, and the ability to push the boundaries.
-          </p>
-          <a
-            href="#"
-            class="uppercase text-xs px-6 py-3 text-mainColor border-mainColor tracking-widest bg-transparent font-semibold transition-all hover:text-white duration-300 hover:bg-mainColor border-2"
-            >learn more</a
-          >
-        </div>
-      </div>
-    </section>
-    <section class="gallery">
-      <div class="container mx-auto mb-6 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold">PROJECT GALLERY</h2>
-      </div>
-      <div
-        class="container mx-auto px-6 grid gap-3 items-center grid-cols-1 md:grid-cols-3"
-      >
-        <div
-          class="gallery-item relative md:col-span-2 md:row-start-1 md:row-end-3"
-        >
-          <img
-            src="./img/07.png"
-            alt="ROSEWOOD CLUB CHAIR"
-            class="hover:brightness-110 transition-all duration-300 w-full h-full"
-          />
-          <p
-            class="absolute p-4 lg:p-5 text-white bg-black/80 bottom-0 left-0 text-lg xl:text-xl tracking-widest"
-          >
-            ROSEWOOD CLUB CHAIR
-          </p>
-        </div>
-        <div
-          class="gallery-item relative md:col-start-3 md:col-end-4 md:row-start-1 md:row-end-2"
-        >
-          <img
-            src="./img/03.png"
-            alt="VICE CABINET"
-            class="hover:brightness-110 transition-all duration-300 w-full h-full"
-          />
-          <p
-            class="absolute p-4 lg:p-5 text-white bg-black/80 bottom-0 left-0 text-lg xl:text-xl tracking-widest"
-          >
-            VICE CABINET
-          </p>
-        </div>
-        <div
-          class="gallery-item relative md:col-start-3 md:col-end-4 md:row-start-2 md:row-end-3"
-        >
-          <img
-            src="./img/06.png"
-            alt="SIDE TABLES"
-            class="hover:brightness-110 transition-all duration-300 w-full h-full"
-          />
-          <p
-            class="absolute p-4 lg:p-5 text-white bg-black/80 bottom-0 left-0 text-lg xl:text-xl tracking-widest"
-          >
-            SIDE TABLES
-          </p>
-        </div>
-        <div
-          class="gallery-item relative md:col-span-2 md:col-start-2 md:row-span-2"
-        >
-          <img
-            src="./img/10.png"
-            alt="WOLF DINING TABLE"
-            class="hover:brightness-110 transition-all duration-300 w-full h-full"
-          />
-          <p
-            class="absolute p-4 lg:p-5 text-white bg-black/80 bottom-0 left-0 text-lg xl:text-xl tracking-widest"
-          >
-            WOLF DINING TABLE
-          </p>
-        </div>
-        <div class="gallery-item relative md:row-start-3">
-          <img
-            src="./img/08.png"
-            alt="FRENCH WALNUT COUNTER"
-            class="hover:brightness-110 transition-all duration-300 w-full h-full"
-          />
-          <p
-            class="absolute p-4 lg:p-5 text-white bg-black/80 bottom-0 left-0 text-lg xl:text-xl tracking-widest"
-          >
-            FRENCH WALNUT COUNTER
-          </p>
-        </div>
-        <div class="gallery-item relative">
-          <img
-            src="./img/02.png"
-            alt="WALNUT DINING CHAIRS"
-            class="hover:brightness-110 transition-all duration-300 w-full h-full"
-          />
-          <p
-            class="absolute p-4 lg:p-5 text-white bg-black/80 bottom-0 left-0 text-lg xl:text-xl tracking-widest"
-          >
-            WALNUT DINING CHAIRS
-          </p>
-        </div>
-      </div>
-      <div class="container mx-auto py-16 text-center">
-        <a
-          href="#"
-          class="uppercase text-base py-6 px-8 text-mainColor border-mainColor tracking-widest bg-transparent transition-all hover:text-white duration-300 hover:bg-mainColor border-2"
-          >view all work</a
-        >
-      </div>
-    </section>
-    <section
-      id="testimonials"
-      class="testimonials relative text-white flex gap-8 flex-col items-center justify-center py-36 bg-testimonial"
-    >
-      <div class="container mx-auto mb-6 text-center">
-        <h2 class="text-3xl md:text-4xl font-bold">CLIENT TESTIMONIALS</h2>
-      </div>
-      <div
-        class="arrows absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl flex cursor-pointer text-white"
-      >
-        <i
-          class="arow fa-solid transition-all duration-300 fa-chevron-left text-gray-500"
-        ></i>
-        <i
-          class="arow fa-solid transition-all duration-300 fa-chevron-right"
-        ></i>
-      </div>
-      <div class="container relative px-4 mx-auto">
-        <div
-          class="testimonial-1 w-full text-lg md:text-2xl lg:text-3xl md:leading-normal md:tracking-wide leading-loose tracking-wider text-center font-serif"
-        >
-          <div class="testi opacity-0">
-            <p class="mb-10">
-              “Adam (and his team as needed) are spectacular. We are interior
-              designers and having good contractors is essential to our
-              business' success. Their product is always flawless. They have not
-              missed a deadline or gone over budget. We have had several
-              occasions where a design needed to be changed and Adam has come up
-              with solutions without affecting lead time or cost to our client.
-              Adam is detail oriented, flexible, smart, and creative. He has a
-              great design eye, and the talent to execute it. Many thanks to
-              Adam and his team, we are lucky to have them in our corner. We
-              look forward to the next successful collaboration.”
+          <div class="flex-1">
+            <img src="./img/about+02.png" alt="kitchen" />
+          </div>
+          <div class="flex flex-col items-start flex-1 gap-8">
+            <p class="uppercase text-xl">ABOUT</p>
+            <h2 class="text-3xl md:text-4xl tracking-widest font-semibold">
+              VORRATH WOODWORKS
+            </h2>
+            <div class="h-0.5 w-3/12 bg-mainColor"></div>
+            <p class="leading-loose">
+              Vorrath Woodworks is a team of formally trained fine woodworkers
+              from The Krenov School of Fine Furniture, in Fort Bragg
+              California. Our training and experience gives us a leg up in the
+              intricacies of fine woodworking, and the ability to push the
+              boundaries.
             </p>
-            <p class="text-sm">
-              -Carol Perry, Interior Design Firm, MAS Design
+            <a
+              href="#"
+              class="uppercase text-xs px-6 py-3 text-mainColor border-mainColor tracking-widest bg-transparent font-semibold transition-all hover:text-white duration-300 hover:bg-mainColor border-2"
+              >learn more</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="container mx-auto mb-6 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold">PROJECT GALLERY</h2>
+        </div>
+        <div
+          class="container mx-auto px-6 grid gap-3 items-center grid-cols-1 md:grid-cols-3"
+        >
+          <div
+            class="gallery-item relative md:col-span-2 md:row-start-1 md:row-end-3"
+          >
+            <img
+              src="./img/07.png"
+              alt="ROSEWOOD CLUB CHAIR"
+              class="hover:brightness-110 transition-all duration-300 w-full h-full"
+            />
+            <p
+              class="absolute p-4 lg:p-5 text-white bg-black/80 bottom-0 left-0 text-lg xl:text-xl tracking-widest"
+            >
+              ROSEWOOD CLUB CHAIR
             </p>
           </div>
           <div
-            class="testi-a transition-all duration-700 ease-in-out absolute top-0 left-0"
+            class="gallery-item relative md:col-start-3 md:col-end-4 md:row-start-1 md:row-end-2"
           >
-            <p class="mb-10 px-5">
-              “Adam (and his team as needed) are spectacular. We are interior
-              designers and having good contractors is essential to our
-              business' success. Their product is always flawless. They have not
-              missed a deadline or gone over budget. We have had several
-              occasions where a design needed to be changed and Adam has come up
-              with solutions without affecting lead time or cost to our client.
-              Adam is detail oriented, flexible, smart, and creative. He has a
-              great design eye, and the talent to execute it. Many thanks to
-              Adam and his team, we are lucky to have them in our corner. We
-              look forward to the next successful collaboration.”
-            </p>
-            <p class="text-sm">
-              -Carol Perry, Interior Design Firm, MAS Design
+            <img
+              src="./img/03.png"
+              alt="VICE CABINET"
+              class="hover:brightness-110 transition-all duration-300 w-full h-full"
+            />
+            <p
+              class="absolute p-4 lg:p-5 text-white bg-black/80 bottom-0 left-0 text-lg xl:text-xl tracking-widest"
+            >
+              VICE CABINET
             </p>
           </div>
           <div
-            class="testi-b transition-all duration-700 ease-in-out absolute top-0 right-0 translate-x-[150%]"
+            class="gallery-item relative md:col-start-3 md:col-end-4 md:row-start-2 md:row-end-3"
           >
-            <p class="mb-10 px-5">
-              “Adam built a wardrobe for my new studio. He was really easy to
-              work with and immediately understood exactly what I was looking
-              for. He had terrific suggestions regarding the type of wood to use
-              and the design of the overall project, offering multiple versions
-              for me to choose from. Everyone who has seen the finished project
-              comments on the high quality of the work and how natural it looks
-              in the space. I am really pleased with the entire experience. I'll
-              definitely be contacting Adam for future projects and would
-              happily recommend him to anyone looking for high quality work from
-              a professional guy.”
+            <img
+              src="./img/06.png"
+              alt="SIDE TABLES"
+              class="hover:brightness-110 transition-all duration-300 w-full h-full"
+            />
+            <p
+              class="absolute p-4 lg:p-5 text-white bg-black/80 bottom-0 left-0 text-lg xl:text-xl tracking-widest"
+            >
+              SIDE TABLES
             </p>
-            <p class="text-sm">-Client</p>
+          </div>
+          <div
+            class="gallery-item relative md:col-span-2 md:col-start-2 md:row-span-2"
+          >
+            <img
+              src="./img/10.png"
+              alt="WOLF DINING TABLE"
+              class="hover:brightness-110 transition-all duration-300 w-full h-full"
+            />
+            <p
+              class="absolute p-4 lg:p-5 text-white bg-black/80 bottom-0 left-0 text-lg xl:text-xl tracking-widest"
+            >
+              WOLF DINING TABLE
+            </p>
+          </div>
+          <div class="gallery-item relative md:row-start-3">
+            <img
+              src="./img/08.png"
+              alt="FRENCH WALNUT COUNTER"
+              class="hover:brightness-110 transition-all duration-300 w-full h-full"
+            />
+            <p
+              class="absolute p-4 lg:p-5 text-white bg-black/80 bottom-0 left-0 text-lg xl:text-xl tracking-widest"
+            >
+              FRENCH WALNUT COUNTER
+            </p>
+          </div>
+          <div class="gallery-item relative">
+            <img
+              src="./img/02.png"
+              alt="WALNUT DINING CHAIRS"
+              class="hover:brightness-110 transition-all duration-300 w-full h-full"
+            />
+            <p
+              class="absolute p-4 lg:p-5 text-white bg-black/80 bottom-0 left-0 text-lg xl:text-xl tracking-widest"
+            >
+              WALNUT DINING CHAIRS
+            </p>
           </div>
         </div>
-        <div class="container mx-auto pt-16 text-center">
+        <div class="container mx-auto py-16 text-center">
           <a
             href="#"
-            class="uppercase text-sm py-3 px-6 text-white border-white tracking-widest bg-transparent transition-all hover:border-mainColor duration-300 hover:bg-mainColor border-2"
-            >view all testimonials</a
+            class="uppercase text-base py-6 px-8 text-mainColor border-mainColor tracking-widest bg-transparent transition-all hover:text-white duration-300 hover:bg-mainColor border-2"
+            >view all work</a
           >
         </div>
-      </div>
-    </section>
-    <section class="social bg-mainColor py-8">
-      <ul class="container mx-auto text-center">
-        <li
-          class="text-2xl flex justify-center gap-4 text-white [&:has(a:hover)]:text-[#999]"
-        >
-          <a href="#" class="hover:text-white p-2 transition-all duration-300"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="#" class="hover:text-white p-2 transition-all duration-300"
-            ><i class="fa-brands fa-facebook-f"></i
-          ></a>
-          <a href="#" class="hover:text-white p-2 transition-all duration-300"
-            ><i class="fa-brands fa-yelp"></i
-          ></a>
-        </li>
-      </ul>
-    </section>
-    <section class="photos px-4 pb-4">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-        <div class="assit-1 w-full h-96"></div>
-        <div class="assit-2 w-full h-96"></div>
-        <div class="assit-3 w-full h-96"></div>
-        <div class="assit-4 w-full h-96"></div>
-        <div class="assit-5 w-full h-96"></div>
-        <div class="assit-6 w-full h-96"></div>
-        <div class="assit-7 w-full h-96"></div>
-        <div class="assit-8 w-full h-96"></div>
-        <div class="assit-9 w-full h-96"></div>
-        <div class="assit-10 w-full h-96"></div>
-      </div>
-    </section>
-    <footer class="bg-black text-center pt-48 pb-12 relative px-6">
-      <div
-        class="footer-logo absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/4"
+      </section>
+      <section
+        id="testimonials"
+        class="testimonials relative text-white flex gap-8 flex-col items-center justify-center py-36 bg-testimonial"
       >
-        <img src="./img/footer-logo+02.png" alt="logo" />
-      </div>
-      <div class="text-xl text-white">
-        <p class="mb-8">2711 ADELINE STREET, OAKLAND, CA 94607</p>
-        <div class="flex flex-col w-44 mx-auto gap-2 mb-5">
-          <a
-            href="tele:561-722-3742"
-            class="py-3 contact-sh transition-all duration-300"
-            >561-722-3742</a
-          >
-          <a
-            href="mailto:example@me"
-            class="contact-sh py-3 transition-all duration-300"
-            >EMAIL US</a
-          >
+        <div class="container mx-auto mb-6 text-center">
+          <h2 class="text-3xl md:text-4xl font-bold">CLIENT TESTIMONIALS</h2>
         </div>
-      </div>
-      <ul class="container mx-auto mb-6 text-center">
-        <li
-          class="text-xl flex justify-center gap-4 text-white [&:has(a:hover)]:text-[#999]"
+        <div
+          class="arrows absolute bottom-8 left-1/2 -translate-x-1/2 text-4xl flex cursor-pointer text-white"
         >
-          <a href="#" class="hover:text-white p-2 transition-all duration-300"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-          <a href="#" class="hover:text-white p-2 transition-all duration-300"
-            ><i class="fa-brands fa-facebook-f"></i
-          ></a>
-          <a href="#" class="hover:text-white p-2 transition-all duration-300"
-            ><i class="fa-brands fa-yelp"></i
-          ></a>
-        </li>
-      </ul>
-      <p class="text-sm text-zinc-500 dark:text-zinc-600">
-        By &apid; Eng: Ahmed Khaled L&copy;lo &apid; 2023 copyright
-      </p>
-    </footer>
+          <i
+            class="arow fa-solid transition-all duration-300 fa-chevron-left text-gray-500"
+          ></i>
+          <i
+            class="arow fa-solid transition-all duration-300 fa-chevron-right"
+          ></i>
+        </div>
+        <div class="container relative px-4 mx-auto">
+          <div
+            class="testimonial-1 w-full text-lg md:text-2xl lg:text-3xl md:leading-normal md:tracking-wide leading-loose tracking-wider text-center font-serif"
+          >
+            <div class="testi opacity-0">
+              <p class="mb-10">
+                “Adam (and his team as needed) are spectacular. We are interior
+                designers and having good contractors is essential to our
+                business' success. Their product is always flawless. They have
+                not missed a deadline or gone over budget. We have had several
+                occasions where a design needed to be changed and Adam has come
+                up with solutions without affecting lead time or cost to our
+                client. Adam is detail oriented, flexible, smart, and creative.
+                He has a great design eye, and the talent to execute it. Many
+                thanks to Adam and his team, we are lucky to have them in our
+                corner. We look forward to the next successful collaboration.”
+              </p>
+              <p class="text-sm">
+                -Carol Perry, Interior Design Firm, MAS Design
+              </p>
+            </div>
+            <div
+              class="testi-a transition-all duration-700 ease-in-out absolute top-0 left-0"
+            >
+              <p class="mb-10 px-5">
+                “Adam (and his team as needed) are spectacular. We are interior
+                designers and having good contractors is essential to our
+                business' success. Their product is always flawless. They have
+                not missed a deadline or gone over budget. We have had several
+                occasions where a design needed to be changed and Adam has come
+                up with solutions without affecting lead time or cost to our
+                client. Adam is detail oriented, flexible, smart, and creative.
+                He has a great design eye, and the talent to execute it. Many
+                thanks to Adam and his team, we are lucky to have them in our
+                corner. We look forward to the next successful collaboration.”
+              </p>
+              <p class="text-sm">
+                -Carol Perry, Interior Design Firm, MAS Design
+              </p>
+            </div>
+            <div
+              class="testi-b transition-all duration-700 ease-in-out absolute top-0 right-0 translate-x-[150%]"
+            >
+              <p class="mb-10 px-5">
+                “Adam built a wardrobe for my new studio. He was really easy to
+                work with and immediately understood exactly what I was looking
+                for. He had terrific suggestions regarding the type of wood to
+                use and the design of the overall project, offering multiple
+                versions for me to choose from. Everyone who has seen the
+                finished project comments on the high quality of the work and
+                how natural it looks in the space. I am really pleased with the
+                entire experience. I'll definitely be contacting Adam for future
+                projects and would happily recommend him to anyone looking for
+                high quality work from a professional guy.”
+              </p>
+              <p class="text-sm">-Client</p>
+            </div>
+          </div>
+          <div class="container mx-auto pt-16 text-center">
+            <a
+              href="#"
+              class="uppercase text-sm py-3 px-6 text-white border-white tracking-widest bg-transparent transition-all hover:border-mainColor duration-300 hover:bg-mainColor border-2"
+              >view all testimonials</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="social bg-mainColor py-8">
+        <ul class="container mx-auto text-center">
+          <li
+            class="text-2xl flex justify-center gap-4 text-white [&:has(a:hover)]:text-[#999]"
+          >
+            <a href="#" class="hover:text-white p-2 transition-all duration-300"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="hover:text-white p-2 transition-all duration-300"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" class="hover:text-white p-2 transition-all duration-300"
+              ><i class="fa-brands fa-yelp"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+      <section class="photos px-4 pb-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div class="assit-1 w-full h-96"></div>
+          <div class="assit-2 w-full h-96"></div>
+          <div class="assit-3 w-full h-96"></div>
+          <div class="assit-4 w-full h-96"></div>
+          <div class="assit-5 w-full h-96"></div>
+          <div class="assit-6 w-full h-96"></div>
+          <div class="assit-7 w-full h-96"></div>
+          <div class="assit-8 w-full h-96"></div>
+          <div class="assit-9 w-full h-96"></div>
+          <div class="assit-10 w-full h-96"></div>
+        </div>
+      </section>
+      <footer class="bg-black text-center pt-48 pb-12 relative px-6">
+        <div
+          class="footer-logo absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/4"
+        >
+          <img src="./img/footer-logo+02.png" alt="logo" />
+        </div>
+        <div class="text-xl text-white">
+          <p class="mb-8">2711 ADELINE STREET, OAKLAND, CA 94607</p>
+          <div class="flex flex-col w-44 mx-auto gap-2 mb-5">
+            <a
+              href="tele:561-722-3742"
+              class="py-3 contact-sh transition-all duration-300"
+              >561-722-3742</a
+            >
+            <a
+              href="mailto:example@me"
+              class="contact-sh py-3 transition-all duration-300"
+              >EMAIL US</a
+            >
+          </div>
+        </div>
+        <ul class="container mx-auto mb-6 text-center">
+          <li
+            class="text-xl flex justify-center gap-4 text-white [&:has(a:hover)]:text-[#999]"
+          >
+            <a href="#" class="hover:text-white p-2 transition-all duration-300"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="hover:text-white p-2 transition-all duration-300"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" class="hover:text-white p-2 transition-all duration-300"
+              ><i class="fa-brands fa-yelp"></i
+            ></a>
+          </li>
+        </ul>
+        <p class="text-sm text-zinc-500 dark:text-zinc-600">
+          By &apid; Eng: Ahmed Khaled L&copy;lo &apid; 2023 copyright
+        </p>
+      </footer>
+    </div>
+
     <script src="./js/script.js" defer></script>
   </body>
 </html>
