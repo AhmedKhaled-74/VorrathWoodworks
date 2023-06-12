@@ -52,8 +52,8 @@ MobLink.forEach((link) => {
     BtnMenu.classList.toggle("open");
     setTimeout(function () {
       BtnMenu.classList.toggle("bg-work");
-      Bars.classList.toggle("-translate-x-4");
-      Bars.classList.toggle("translate-x-2");
+      Bars.classList.add("-translate-x-4");
+      Bars.classList.remove("translate-x-2");
     }, 1100);
     Menu.classList.toggle("bg-black/60");
     Menu.classList.toggle("backdrop-blur-md");
