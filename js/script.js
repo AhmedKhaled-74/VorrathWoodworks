@@ -41,7 +41,7 @@ BtnMenu.addEventListener("click", () => {
     BtnMenu.classList.toggle("bg-work");
     Bars.classList.toggle("-translate-x-4");
     Bars.classList.toggle("translate-x-2");
-  }, 1100);
+  }, 100);
   Menu.classList.toggle("bg-black/60");
   Menu.classList.toggle("backdrop-blur-md");
   Menu.classList.toggle("translate-x-[85%]");
@@ -54,7 +54,7 @@ MobLink.forEach((link) => {
       BtnMenu.classList.toggle("bg-work");
       Bars.classList.add("-translate-x-4");
       Bars.classList.remove("translate-x-2");
-    }, 1100);
+    }, 100);
     Menu.classList.toggle("bg-black/60");
     Menu.classList.toggle("backdrop-blur-md");
     Menu.classList.toggle("translate-x-[85%]");
