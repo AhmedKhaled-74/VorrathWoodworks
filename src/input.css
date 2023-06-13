@@ -9,7 +9,7 @@
     url(../img/IMG_1451.jpg);
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  @apply md:bg-fixed;
 }
 .bg-work {
   background-image: url(../img/services.png);
@@ -19,8 +19,9 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(../img/testimonials+bg.png);
   background-size: cover;
-  background-attachment: fixed;
+  @apply md:bg-fixed;
 }
+
 .assit-1 {
   background-image: url(../img/image-asset.jpeg);
 

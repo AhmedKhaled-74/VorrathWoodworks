@@ -71,6 +71,6 @@ Arrows.addEventListener("click", () => {
     arow.classList.toggle("text-gray-500");
   });
 
-  TestiA.classList.toggle("-translate-x-full");
+  TestiA.classList.toggle("translate-x-[-150%]");
   TestiB.classList.toggle("translate-x-[150%]");
 });
